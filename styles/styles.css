@@ -1,0 +1,72 @@
+/* common shared styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+
+
+/* main */
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px 43px;
+}
+
+.page-one {
+    background-color: rgba(229, 84, 115, 0.10);
+    background-image: url('../images/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.page-one-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.page-one-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+/* footer */
+.footer-section {
+    background-color: #111010;
+    padding: 128px 648px;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.flower-span {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer-rights {
+    color: #FFFFFF66;
+    text-align: center;
+    font-size: 16px;
+}
