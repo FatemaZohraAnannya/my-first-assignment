@@ -12,16 +12,30 @@
     border-radius: 8px;
     background: #E55473;
     border: 0;
-    color: white;
+    color: #FFF;
     font-size: 20px;
     padding: 20px 43px;
 }
 
+
+
+/* page one */
 .page-one {
     background-color: rgba(229, 84, 115, 0.10);
-    background-image: url('../images/pngwing\ 10.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    display: flex;
+    align-items: center;
+    padding: 50px 240px 0px 240px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.page-one-div {
+    max-width: 800px;
+}
+
+.page-one-flower-picture {
+    width: 635px;
+    height: 800px;
 }
 
 .page-one-title {
@@ -38,11 +52,80 @@
 }
 
 
+/* page two */
+/* bonus part */
+.page-two {
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.page-two-div-two {
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.page-two-sub-div {
+    padding: 86px 50px;
+    align-items: center;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.page-two-flower-picture {}
+
+
+
+/* page three */
+.page-three {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 50px 240px 0px 240px;
+}
+
+.page-three-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.off {
+    color: #E55473;
+}
+
+.page-three-div {
+    text-align: center;
+    padding-top: ;
+}
+.page-three-description{
+    width: 594px ;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 .footer-section {
-    background-color: #111010;
-    padding: 128px 648px;
+    background-color: black;
+    padding: 128px;
 }
 
 .footer-title {
